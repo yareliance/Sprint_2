@@ -5,7 +5,9 @@ import model.constants.Discount;
 
 
 public class Apple extends Food{
-    public String colour;  // у яблок есть дополнительное поле - цвет яблок
+
+    // у яблок есть дополнительное поле - цвет яблок
+    private String colour;  // модификатор доступа минимальный, тк используется только в этом классе
 
     // Конструктор принимает три входных параметра — количество, цену, цвет:
     public Apple(int amount, double price, String colour) {
